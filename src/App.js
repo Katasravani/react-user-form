@@ -46,7 +46,7 @@ function App() {
           }}
           style={{ borderColor: emailValidated ? 'green' : 'red'}}
         />
-        {!emailValidated && <p style={{ color: 'red' }}>Please enter a valid email address.</p>}
+        {!emailValidated && <p className='para' style={{ color: 'red' }}>Please enter a valid email address.</p>}
       </div>
       <div>
         <label id='password'>Password:</label>
@@ -60,7 +60,7 @@ function App() {
           }}
           style={{ borderColor: passwordValidated ? 'green' : 'red' }}
         />
-        {!passwordValidated && <p style={{ color: 'red' }}>Password must be at least 8 characters long.</p>}
+        {!passwordValidated && <p className='para' style={{ color: 'red' }}>Password must be at least 8 characters long.</p>}
       </div>
       <div>
         <label id='confirm'>Confirm Password:</label>
@@ -74,7 +74,7 @@ function App() {
           }}
           style={{ borderColor: confirmPasswordValidated ? 'green' : 'red' }}
         />
-        {!confirmPasswordValidated && <p style={{ color: 'red' }}>Passwords do not match.</p>}
+        {!confirmPasswordValidated && <p className='para' style={{ color: 'red' }}>Passwords do not match.</p>}
       </div>
       <button type="submit" id='submit-btn'>Sign up</button>
     </form>
