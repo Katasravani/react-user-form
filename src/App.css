@@ -1,0 +1,47 @@
+#form{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    margin: auto;
+    gap:15px;
+}
+#email{
+    font-size: 20px;
+    font-weight: 700; 
+}
+#email-input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+#password{
+    font-size: 20px;
+    font-weight: 700; 
+}
+#password-input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+
+}
+#confirm{
+    font-size: 20px;
+    font-weight: 700; 
+}
+#confirm-input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+}
+#submit-btn{
+    padding: 10px 10px;
+    width: 30%;
+    background-color: rgb(3, 167, 232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
